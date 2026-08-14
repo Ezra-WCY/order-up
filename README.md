@@ -1,17 +1,3 @@
 # Order Up
 
-A tiny SwiftUI snack-order pad for Saturday's agentic coding hour.
-
-## Get it running
-
-1. Clone this repository.
-2. Open `order-up.xcodeproj` in Xcode.
-3. Run it on an **iPhone** simulator.
-4. Tap around. Then open **OpenCode** in this folder and work from there.
-
-```bash
-git clone https://github.com/swiftinsg/order-up.git
-cd order-up
-```
-
-iPhone only.
+A tiny SwiftUI snack-order pad.
