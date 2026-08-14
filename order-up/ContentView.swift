@@ -16,7 +16,7 @@ struct ContentView: View {
     @State private var arr: [String] = []
 
     var body: some View {
-        VStack(spacing: 28) {
+        VStack(spacing: 20) {
             Text("Order Up")
                 .font(.largeTitle)
                 .bold()
@@ -98,7 +98,7 @@ struct ContentView: View {
             .controlSize(.large)
             .font(.title2)
         }
-        .padding(48)
+        .padding(20)
     }
 }
 
