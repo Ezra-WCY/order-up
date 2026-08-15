@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var a = 0
+    @State private var Milo = 0
     @State private var teh = 0
     @State private var toast = 0
     @State private var flag = false
@@ -31,11 +31,11 @@ struct ContentView: View {
                 Text("$1.50")
                     .foregroundStyle(.secondary)
                 Spacer()
-                Text("\(a)")
+                Text("\(Milo)")
                     .font(.title)
                     .monospacedDigit()
                 Button {
-                    teh += 1
+                    Milo += 1
                     tmp = 1
                 } label: {
                     Image(systemName: "plus.circle.fill")
@@ -87,7 +87,7 @@ struct ContentView: View {
             .background(Color.yellow.opacity(0.22))
             .clipShape(RoundedRectangle(cornerRadius: 16))
 
-            Text("Total  $\(Double(a) * 1.5 + Double(toast) * 2.0, specifier: "%.2f")")
+            Text("Total  $\(Double(Milo) * 1.5 + Double(toast) * 2.0, specifier: "%.2f")")
                 .font(.title)
                 .bold()
                 .padding(.top, 8)
